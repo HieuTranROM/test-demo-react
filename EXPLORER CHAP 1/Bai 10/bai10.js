@@ -44,4 +44,7 @@ let obj = {
         province: 'hang bai'
     }
 }
-console.log(obj.address);
+console.log(obj?.address?.xyz?.def);
+
+const test = undefined;
+test?.map(item => item)
